@@ -1,0 +1,116 @@
+.App {
+  text-align: -webkit-center;
+}
+
+.App-header {
+  height: 59px;
+  display: flex;
+  width: 1225px;
+  margin-bottom: 13px;
+  justify-content: center;
+}
+
+.App-header-item {
+  margin-top: 40px;
+  width: 610px;
+}
+
+.header-left {
+  text-align: left;
+  padding-left: 16px;
+}
+
+.color-gray {
+  color: #555555;
+}
+
+.header-left-arrow {
+  background: url(./pic/Arrow.svg) center no-repeat;
+  width: 7px;
+  height: 14px;
+  margin-left: 8.5px;
+}
+
+.header-left-arrow:hover {
+  background: url(./pic/ArrowUp.svg);
+  width: 7px;
+  height: 4px;
+  margin-left: 8.5px;
+}
+
+.header-right {
+  justify-content: right;
+  display: flex;
+}
+
+.header-right-item {
+  width: 78px;
+  color: #AAB7D4;
+  text-decoration: none;
+}
+
+.header-right-item:hover {
+  width: 78px;
+  color: #7B8AAB;
+}
+.header-right-item:active {
+  width: 78px;
+  color: #3D8FEC;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1225px;
+}
+.dropbtn {
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #D4DBE9}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #D4DBE9;
+}

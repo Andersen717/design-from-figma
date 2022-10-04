@@ -1,0 +1,90 @@
+.card-container {
+  width: 294px;
+  height: 90px;
+  margin: 6px;
+  border-radius: 7px;
+  box-shadow: 0 1px 2px 0 rgba(208, 218, 235, 1.0), 0 0px 2px 0 rgba(238, 244, 254, 1.0);
+  font-size: 18px;
+}
+.row {
+  display: flex;
+}
+.row-item {
+  margin: 16px;
+}
+.no-left-margin {
+  margin-left: 0px !important;
+}
+.symbol-container-TLAD {
+  background: url(./pic/Group3277.svg) center no-repeat, url(./pic/Rectangle2268.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.symbol-container-TT {
+  background: url(./pic/Group3304.svg) center no-repeat, url(./pic/Rectangle2268.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.symbol-container-W {
+  background: url(./pic/Vector160.svg) center no-repeat, url(./pic/Rectangle2269.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.symbol-container-CT {
+  background: url(./pic/Group3305.svg) center no-repeat, url(./pic/Rectangle2269.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.symbol-container-L {
+  background: url(./pic/Group3258.svg) center no-repeat, url(./pic/Rectangle2270.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.symbol-container-ET {
+  background: url(./pic/Group3306.svg) center no-repeat, url(./pic/Rectangle2270.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.symbol-container-NL {
+  background: url(./pic/User.svg) center no-repeat, url(./pic/Rectangle2271.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.symbol-container-NT {
+  background: url(./pic/Group3275.svg) center no-repeat, url(./pic/Rectangle2271.svg) center no-repeat;
+  background-size: 20px, 58px;
+  width: 58px;
+  height: 58px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.column-item {
+  margin: 2px;
+  font-weight: 400;
+}
+.color-pink {
+  color: #C37ADD;
+  font-weight: 700 !important;
+}
+.color-green {
+  color: #63D422;
+  font-weight: 700 !important;
+}
+.color-red {
+  color: #F56C6C;
+  font-weight: 700 !important;
+}
+.color-blue {
+  color: #2BBEF8;
+  font-weight: 700 !important;
+}
